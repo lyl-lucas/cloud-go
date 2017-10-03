@@ -57,7 +57,7 @@ deploy:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: /lu19kend/source/cloud-go
+       cmd: ls
        port: "8080"
        tag: latest
        repository: lu19kend/cloud-go
