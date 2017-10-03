@@ -24,7 +24,7 @@ dev:
 build:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/cloudnativego/hello
+        package-dir: github.com/lyl-lucas/cloud-go
 
     - script:
         name: env
